@@ -1,0 +1,15 @@
+[Desktop Entry]
+Name=KSensors
+Exec=ksensors
+Icon=ksensors
+Type=Application
+Comment=A nice lmsensors frontend for KDE
+Comment[cs]=Pěkné rozhraní pro lmsemsors v KDE
+Comment[de]=Ein benutzerfreundliches lmsensors Frontend für KDE
+Comment[es]=Un agradable lmsensors frontend para KDE
+Comment[fr]=Un frontend sympatique pour lm-sensors et KDE
+Comment[he]=היישום KSensors -תוכנית קידמה יפה של KDE עבור lmsensors
+Comment[nb]=Ett behagelig lmsensors-grensesnitt for KDE
+Comment[nl]=Een gebruiksvriendelijke interface voor KDE
+Comment[pl]=Ładny frondend lmsensors dla KDE
+Comment[sv]=Ett trevligt gränssnitt mot lmsensors för KDE

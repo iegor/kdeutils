@@ -1,0 +1,17 @@
+--------------------------------------------------------------------------------
+KSensors                                                Frequent Asked Questions
+--------------------------------------------------------------------------------
+
+
+1. When I try to run KSensors nothing is displayed, no window and
+   no error message. But a ps or pstree shows a ksensors process.
+
+      Enable KDE System Tray applet before execute ksensors.
+      Menu KDE -> Panel Configuration -> Add -> Applet -> System Tray
+
+2. I'm compiling KSensors in KDE 3.x, and configure does not find qt3 libraries.
+
+    Add qt3 dir path to ./configure, for example:
+
+    ./configure --prefix=/opt/kde3 --with-qt-dir=/usr/lib/qt3
+

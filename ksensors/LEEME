@@ -1,0 +1,64 @@
+==================================================================
+KSensors (ksensors.sourceforge.net)           michaell@teleline.es
+==================================================================
+
+Informacion General
+---------------------
+
+KSensors es un LMSensors Frontend para KDE.
+Debes instalar los drivers LMSensors para poder
+usarlo (http://www.netroedge.com/~lm78/):
+
+En Mandrake 8.1:
+urpmi lm_utils lm_utils-devel
+
+Luego ejecuta el script:
+sensors-detect
+Que indicara los modulos necesarios que hay que instalar para
+poder leer los sensores de temperatura, etc de la placa base.
+
+
+Nuevo Soporte para monitorizar la temperatura de discos duros
+-------------------------------------------------------------
+
+KSensors puede monitorizar la temperatura de los discos
+duros, gracias al programa HDDTemp de Emmanuel Varagnat.
+Puedes bajarte HDDTemp de:  http://coredump.free.fr
+HDDTemp debe estar en PATH para que KSensors lo pueda utilizar.
+Para que hddtemp funcione correctamente es necesario
+activar el bit SUID, para ello teclear:
+chmod +s hddtemp
+
+ATENCION: Activar el bit suid de un programa puede suponer
+          un problema de seguridad.
+
+
+Compilar e instalar KSensors en KDE 3.x
+---------------------------------------
+
+tar -zxvf ksensors-0.7.3.tar.gz
+cd ksensors-0.7.3
+./configure --prefix=/opt/kde3 --with-qt-dir=/usr/lib/qt3
+make
+make install
+
+* Reemplaza /opt/kde3 y /usr/lib/qt3 con los directorios de tu KDE3 y qt3
+
+
+Como desinstalar
+---------------
+cd ksensors-0.7.3
+make uninstall
+
+
+Informacion de contacto
+-----------------------
+No dudes en contactar conmigo si tienes problemas para hacer
+funcionar el programa o para notificar fallos, questiones,
+peticiones, etc.
+
+-------------------------
+ksensors.sourceforge.net
+<michaell@teleline.es>
+(C) Miguel Novas
+-------------------------

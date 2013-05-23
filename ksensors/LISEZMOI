@@ -1,0 +1,69 @@
+==================================================================
+KSensors (ksensors.sourceforge.net)           michaell@teleline.es
+==================================================================
+
+Information Générales
+---------------------
+
+Ce programme est un front-end pour lmsensors, vous devez installer les drivers 
+lmsensors avant de l'utiliser (http://www.netroedge.com/~lm78/):
+
+Avec une Mandrake 8.1, essayez:
+urpmi lm_utils lm_utils-devel
+
+Ensuite, executez le script:
+sensors-detect
+il vous montrera les modules de lm-sensors que vous devez installer pour
+votre carte-mère.
+
+Ce programme a été testé uniquement sur ma carte-mère (PII866 Asus CUBX-L).
+Je ne sais pas s'il marche correctement avec d'autres carte-mères, essayez.
+
+
+NOUVEAU : Surveillance de la température des disques durs
+---------------------------------------------------------
+
+KSensors peut maintenant afficher les températures de vos disques durs 
+(uniquement les disques durs récents).
+Vous devez pour cela installer le programme HDDtemp écrit par Emmanuel 
+Varagnat. HDDTemp doit se trouver dans la variable PATH pour que KSensors 
+puisse l'utiliser.
+Vous pouvez télécharger HDDTemp à l'adresse http://coredump.free.fr.
+Le bit SUID bit doit être activé, tapez:
+chmod +s hddtemp
+
+ATTENTION: Activer un bit SUID peut créer un trou de sécurité.
+
+
+Compilation et installation de KSensors avec KDE 3.x
+----------------------------------------------------
+
+tar -zxvf ksensors-0.7.3.tar.gz
+cd ksensors-0.7.3
+./configure --prefix=/opt/kde3 --with-qt-dir=/usr/lib/qt3
+make
+make install
+
+* Remplacez /opt/kde3 et /usr/lib/qt3 par vos répertoires KDE3 et QT3.
+
+
+Comment désinstaller
+--------------------
+cd ksensors-0.7.3
+make uninstall
+
+
+Contact
+-------
+Contactez moi (en anglais ou en espagnol) si vous avez des problèmes pour 
+executer ce programme ou pour m'indiquer des bugs, pour me poser des 
+questions, faire des demandes, etc.
+
+-------------------------
+ksensors.sourceforge.net
+<michaell@teleline.es>
+(C) Miguel Novas
+-------------------------
+
+
+

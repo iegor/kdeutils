@@ -1,0 +1,143 @@
+KSensors-0.7.3
+--------------
+
+ * Fixed too much decimal digits in sensor values 
+ * Fixed lock and 100% cpu usage when using hddtemp sensor
+ * Ported to kdevelop 3 project and improved config dialog appearance (by Thomas Nagy <>)
+ * Fix to support adm1025 chip (patch from Jose Luis Martin) <josel.m@terra.com>)
+ * CPU speed panel updated in realtime, usefull in mobile processors ( code from Stefan Gunkler <stegun@yahoo.com> )
+ * Added support for reading cpu temperature from /proc/acpi/thermal_zone/THRM/temperature
+ * Added a alarm sound (by Aurelien Jarno <aurel32@debian.org>)
+ * Fixed a crash when removing info panels (by Aurelien Jarno <aurel32@debian.org>)
+ * Correctly remove white space before processor information (by Aurelien Jarno <aurel32@debian.org>)
+
+KSensors-0.7.2
+--------------
+
+ * Fixed crash in kde 3.1 when docking sensors
+ * Used K sufix instead of º in  Kelvin temperatures.
+ * Fixed compilation problems with gcc 3.x
+ * Fixed max1617 bug                                      (patch from Aurelien Jarno <aurel32@debian.org>)
+ * Updated code for using new version of hddtemp (v0.3b)  (patch from Aurelien Jarno <aurel32@debian.org>)
+ * Restore ksensors main window in correct desktop number (patch from Aurelien Jarno <aurel32@debian.org>)
+ * Correctly save the configuration when exiting KDE      (patch from Aurelien Jarno <aurel32@debian.org>)
+ * Added Autostart option in general configuration tab    (patch from Aurelien Jarno <aurel32@debian.org>)
+ * Better panel dragging and main window position fix     (patch from Terry Mohan <tmohan@users.sourceforge.net>)
+
+KSensors-0.7.1
+--------------
+
+ * Added support for Dell Inspiron and Latitude laptops SMM BIOS Fan/Temp sensors
+   (using i8k kernel module: http://www.debian.org/~dz/i8k/)
+
+KSensors-0.7
+-------------
+
+ * Allow docking fan and voltage sensors
+ * Configuration dialog redesign (more modular).
+ * Several panel sizes
+ * Fixed crash at startup in some kde binaries, fixed kcolorbutton compilation problem.
+
+
+KSensors-0.6.1
+--------------
+
+ * Bug Fix release:
+
+   Fixed a problem executing hddtemp to monitor harddisks temperatures.
+   (After 1000 executions KProcess object don't emit Exited signal and cpu usage jumps to 100%,
+    resolved creating and destroying kprocess every time is need)
+
+KSensors-0.6
+------------
+
+ * New Hardisks Temperatures sensor panels (need to install HDDtemp program: http://coredump.free.fr)
+ * Changed cpu state, swap and ram panels appearance
+ * Added splash screen (only on first execution or using --splash parameter).
+ * Added --nodock option (don't dock in KDE System tray, useful to execute ksensors without KDE environment).
+ * Configurable Panels colors
+ * Support for multiple lm-sensors chips.
+ * Fixed About Dialog problem in KDE 3.0 (dialog did not show).
+ * KSensors works in KDE 2.2.x and 3.0
+
+KSensors-0.5
+-------------------------
+
+15/01/2001
+
+ * Now sensors panels blinks on alarm values.
+
+14/01/2001
+
+ * Added Czech translation (thanks to Michal Cihar)
+ * Applied patch to procinfo.cpp (thanks to Aurelien Jarno), now works better the swap info panel ;)
+
+13/01/2001
+
+ * Added Voltage Sensors panels
+ * Added Cpu state and Uptime panels
+ * Temperatures in celsius, farenheit or kelvin scales
+ * Configurable update intervals for sensors and system info panels
+ * English, spanish, french, german and dutch translations
+ * Configuration dialog redesign
+ * Dial arcs in clockwise direction.
+
+KSensors-0.4
+-------------------------
+
+18/12/2001
+
+ Bug #492495 Fixed: no sensors listed when only one temp sensor exists.
+
+17/12/2001
+
+ Added Swap Memory info panel.
+
+16/12/2001
+
+ Added German translation (thanks to Michael v.Ostheim )
+
+13/12/2001
+
+ Added French translation (thanks to Aurelien Jarno)
+
+KSensors-0.3
+-------------------------
+
+
+04/12/2001
+
+ Added CPU Speed and Used memory info widgets.
+ Recoded QLCDString class.
+
+
+KSensors-0.2
+-------------------------
+
+
+17/11/2001
+
+  Aesthetic changes in configuration widget.
+
+  Now works alarms configuration:
+    Run command or play sound when reached alarm value.
+    Possibility to pass $SENSOR_NAME and $SENSOR_VALUE environment variables
+    to the command, for example:
+     echo "Sensor: $SENSOR_NAME value: $SENSOR_VALUE warning." | mail admin@foo.com"
+
+  Possibility to adjust sensor value (Value=  Value_Read * multiplier + addition )
+
+
+14/11/2001
+
+  Changed configure dialog, new alarm configuration.
+
+10/11/2001
+
+  Changed sensors reading method, now use libsensors instead of get
+  values directly from /proc/sys/dev/sensors/*
+  (Need install libsensors-devel to compile)
+
+  Added new Abstract class Display to allow easy programing diferent
+  widgets in main window.
+

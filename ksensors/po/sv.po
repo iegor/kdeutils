@@ -1,0 +1,423 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: ksensors 0.7.3-7\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2004-08-18 23:19+0200\n"
+"PO-Revision-Date: 2005-11-02 22:34+0100\n"
+"Last-Translator: Daniel Nylander <po@danielnylander.se>\n"
+"Language-Team: Swedish <sv@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=iso-8859-1\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-Language: swe\n"
+"X-Poedit-Country: swe\n"
+
+#: hdsensorslist.cpp:36
+msgid "Hard Disks"
+msgstr "Hårddiskar"
+
+#: i8ksensorslist.cpp:29
+msgid "MainBoard"
+msgstr "Moderkort"
+
+#: ksensorscfg.cpp:51
+msgid "KSensors Configuration"
+msgstr "Konfiguration av KSensors"
+
+#: ksensorscfg.cpp:56
+msgid "Global settings"
+msgstr "Globala inställningar"
+
+#: ksensorscfg.cpp:68
+msgid " sensors"
+msgstr " sensorer"
+
+#: ksensorscfg.cpp:85
+msgid "System Information"
+msgstr "Systeminformation"
+
+#: lmsensorscfg.cpp:101
+msgid "Temperature"
+msgstr "Temperatur"
+
+#: lmsensorscfg.cpp:107
+msgid "Fan"
+msgstr "Fläkt"
+
+#: lmsensorscfg.cpp:110
+msgid "Voltage"
+msgstr "Volttal"
+
+#: lmsensorsdock.cpp:62
+msgid "&About KSensors"
+msgstr "&Om KSensors"
+
+#: lmsensorsdock.cpp:64
+#: lmsensorsdock.cpp:124
+msgid "&Minimize"
+msgstr "&Minimera"
+
+#: lmsensorsdock.cpp:64
+#: lmsensorsdock.cpp:124
+msgid "&Restore"
+msgstr "&Återställ"
+
+#: lmsensorsdock.cpp:65
+msgid "&Exit"
+msgstr "&Avsluta"
+
+#: main.cpp:27
+msgid "KSensors - A nice lmsensors frontend for KDE"
+msgstr "KSensors - Ett trevligt gränssnitt mot lmsensors för KDE"
+
+#: main.cpp:33
+msgid "Don't dock in KDE system tray."
+msgstr "Docka inte till KDE's systemraden."
+
+#: main.cpp:34
+msgid "Show splash screen."
+msgstr "Visa startbild."
+
+#: main.cpp:43
+#: rc.cpp:5
+msgid "KSensors"
+msgstr "KSensors"
+
+#: rc.cpp:1
+msgid "C&ustom"
+msgstr "Egendefinerad"
+
+#: rc.cpp:2
+msgid "AboutCfgDesign"
+msgstr "AboutCfgDesign"
+
+#: rc.cpp:3
+msgid "KSensors configuration"
+msgstr "KSensors konfiguration"
+
+#: rc.cpp:4
+msgid "Monitoring your motherboard"
+msgstr "Övervaka ditt moderkort"
+
+#: rc.cpp:6
+msgid "Welcome to the KSensors configuration window. Click on the left to select a configuration option."
+msgstr "Välkommen till KSenors konfigurationsfönster. Klicka på vänster sida för att välja en inställning."
+
+#: rc.cpp:7
+msgid "GeneralCfg"
+msgstr "GeneralCfg"
+
+#: rc.cpp:8
+msgid "Panels size"
+msgstr "Panelstorlek"
+
+#: rc.cpp:9
+msgid "64 x 64"
+msgstr "64 x 64"
+
+#: rc.cpp:10
+msgid "56 x 56"
+msgstr "56 x 56"
+
+#: rc.cpp:11
+msgid "48 x 48"
+msgstr "48 x 48"
+
+#: rc.cpp:12
+#: rc.cpp:55
+#: rc.cpp:59
+#: rc.cpp:91
+msgid "Colors"
+msgstr "Färger"
+
+#: rc.cpp:13
+msgid "Startup"
+msgstr "Starta upp"
+
+#: rc.cpp:14
+msgid "Autostart KSensors on KDE startup"
+msgstr "Autostarta KSensors vid uppstart av KDE"
+
+#: rc.cpp:15
+msgid "LMSensorsCfgDesign"
+msgstr "LMSensorsCfgDesign"
+
+#: rc.cpp:16
+msgid "Sensors"
+msgstr "Sensorer"
+
+#: rc.cpp:17
+msgid "General"
+msgstr "Allmänt"
+
+#: rc.cpp:19
+msgid "Description"
+msgstr "Beskrivning"
+
+#: rc.cpp:21
+msgid "Values"
+msgstr "Värden"
+
+#: rc.cpp:23
+msgid "Current"
+msgstr "Nuvarande"
+
+#: rc.cpp:24
+msgid "Maximum"
+msgstr "Maximum"
+
+#: rc.cpp:25
+msgid "+1%"
+msgstr "+1%"
+
+#: rc.cpp:26
+msgid "+2%"
+msgstr "+2%"
+
+#: rc.cpp:27
+msgid "+3%"
+msgstr "+3%"
+
+#: rc.cpp:28
+msgid "+4%"
+msgstr "+4%"
+
+#: rc.cpp:29
+msgid "+5%"
+msgstr "+5%"
+
+#: rc.cpp:30
+msgid "+10%"
+msgstr "+10%"
+
+#: rc.cpp:31
+msgid "+15%"
+msgstr "+15%"
+
+#: rc.cpp:32
+msgid "+20%"
+msgstr "+20%"
+
+#: rc.cpp:33
+msgid "+30%"
+msgstr "+30%"
+
+#: rc.cpp:34
+msgid "+40%"
+msgstr "+40%"
+
+#: rc.cpp:35
+msgid "+50%"
+msgstr "+50%"
+
+#: rc.cpp:36
+msgid "Multiplier"
+msgstr "Multiplikator"
+
+#: rc.cpp:37
+msgid "Ideal"
+msgstr "Ideal"
+
+#: rc.cpp:38
+msgid "Minimum"
+msgstr "Minimum"
+
+#: rc.cpp:39
+msgid "Addition"
+msgstr "Tillägg"
+
+#: rc.cpp:41
+msgid "-1%"
+msgstr "-1%"
+
+#: rc.cpp:42
+msgid "-2%"
+msgstr "-2%"
+
+#: rc.cpp:43
+msgid "-3%"
+msgstr "-3%"
+
+#: rc.cpp:44
+msgid "-4%"
+msgstr "-4%"
+
+#: rc.cpp:45
+msgid "-5%"
+msgstr "-5%"
+
+#: rc.cpp:46
+msgid "-10%"
+msgstr "-10%"
+
+#: rc.cpp:47
+msgid "-15%"
+msgstr "-15%"
+
+#: rc.cpp:48
+msgid "-20%"
+msgstr "-20%"
+
+#: rc.cpp:49
+msgid "-30%"
+msgstr "-30%"
+
+#: rc.cpp:50
+msgid "-40%"
+msgstr "-40%"
+
+#: rc.cpp:51
+msgid "-50%"
+msgstr "-50%"
+
+#: rc.cpp:52
+msgid "Panel"
+msgstr "Panel"
+
+#: rc.cpp:54
+#: rc.cpp:58
+#: rc.cpp:90
+msgid "Visible"
+msgstr "Synlig"
+
+#: rc.cpp:56
+msgid "Dock"
+msgstr "Dockning"
+
+#: rc.cpp:60
+msgid "Alarm"
+msgstr "Alarm"
+
+#: rc.cpp:63
+msgid "Normal"
+msgstr "Normal"
+
+#: rc.cpp:64
+msgid "Alarms"
+msgstr "Larm"
+
+#: rc.cpp:65
+msgid "On reach alarm value:"
+msgstr "När larmvärdet uppnås:"
+
+#: rc.cpp:66
+msgid "Apply to all sensors"
+msgstr "Tillämpa på alla sensorer"
+
+#: rc.cpp:67
+msgid "Do nothing"
+msgstr "Gör inget"
+
+#: rc.cpp:68
+msgid "Test"
+msgstr "Test"
+
+#: rc.cpp:69
+msgid "Play alarm sound"
+msgstr "Spela upp larmljud"
+
+#: rc.cpp:70
+msgid "Run command"
+msgstr "Kör kommando"
+
+#: rc.cpp:71
+#: rc.cpp:92
+msgid "Preferences"
+msgstr "Egenskaper"
+
+#: rc.cpp:72
+msgid "Temperatures scale"
+msgstr "Temperaturskala"
+
+#: rc.cpp:73
+msgid "Fahrenheit"
+msgstr "Fahrenheit"
+
+#: rc.cpp:74
+msgid "Celsius"
+msgstr "Celsius"
+
+#: rc.cpp:75
+msgid "Kelvin"
+msgstr "Kelvin"
+
+#: rc.cpp:76
+#: rc.cpp:93
+msgid "Update interval"
+msgstr "Uppdateringsintervall"
+
+#: rc.cpp:77
+#: rc.cpp:94
+msgid "s"
+msgstr "s"
+
+#: rc.cpp:78
+msgid "PaletteCfg"
+msgstr "PaletteCfg"
+
+#: rc.cpp:79
+#: rc.cpp:84
+msgid "Title"
+msgstr "Titel"
+
+#: rc.cpp:80
+msgid "+3.5V"
+msgstr "+3.5V"
+
+#: rc.cpp:81
+msgid "Default colors"
+msgstr "Standardfärger"
+
+#: rc.cpp:82
+msgid "Background"
+msgstr "Bakgrund"
+
+#: rc.cpp:85
+msgid "Value"
+msgstr "Värde"
+
+#: rc.cpp:87
+msgid "SystemCfgDesign"
+msgstr "SystemCfgDesign"
+
+#: rc.cpp:88
+msgid "System Panels"
+msgstr "Systempaneler"
+
+#: systemcfg.cpp:47
+msgid "CPU Speed"
+msgstr "CPU-hastighet"
+
+#: systemcfg.cpp:48
+msgid "CPU State"
+msgstr "CPU Status"
+
+#: systemcfg.cpp:49
+msgid "RAM Used"
+msgstr "RAM använt"
+
+#: systemcfg.cpp:50
+msgid "SWAP Used"
+msgstr "SWAP använt"
+
+#: systemcfg.cpp:51
+msgid "Up Time"
+msgstr "Uppetid"
+
+#: _translatorinfo.cpp:1
+msgid ""
+"_: NAME OF TRANSLATORS\n"
+"Your names"
+msgstr "Daniel Nylander"
+
+#: _translatorinfo.cpp:3
+msgid ""
+"_: EMAIL OF TRANSLATORS\n"
+"Your emails"
+msgstr "po@danielnylander.se"
+

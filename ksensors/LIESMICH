@@ -1,0 +1,56 @@
+==================================================================
+KSensors (ksensors.sourceforge.net)           michaell@teleline.es
+==================================================================
+
+Allgemeine Informationen
+------------------------
+Dies ist ein lmsensors Frontend, Sie müssen zuerst die lmsensors Treiber
+installieren, um es zu benutzen (http://www.netroedge.com/~lm78/):
+
+In Mandrake versuchen Sie:
+urpmi lm_utils lm_utils-devel
+
+Dann starten Sie das Script:
+sensors-detect
+es listet die Module auf, die Sie für Ihr Motherboard installieren müssen.
+
+Diese Software wurde nur auf meinem Motherboard (PII866 Asus CUBX-L)
+getestet. Ich weiß nicht, ob es mit anderen Motherboards problemlos
+funktioniert. Versuchen Sie es.
+
+
+KSensors kompilieren und installieren
+-------------------------------------
+
+Dieses Programm wird standardmäßig in /usr/local/kde installiert.
+In den neuesten Distributionen (Debian woody, Mandrake, usw.)
+liegt das KDE Verzeichnis in /usr. In diesem Fall müssen Sie das
+Verzeichnis mit dem --prefix Argument konfigurieren.
+
+tar -zxvf ksensors-0.7.3.tar.gz
+cd ksensors-0.7.3
+./configure --prefix=/usr
+make
+make install
+
+
+Deinstallieren
+--------------
+cd ksensors-0.7.3
+make uninstall
+
+
+Kontakt Information
+-------------------
+Kontakten Sie mich, wenn Sie Probleme haben, diese Software
+zu benutzen, oder um Fehler zu melden, Fragen zu stellen,
+Rückmeldungen zu geben usw.
+
+-------------------------
+ksensors.sourceforge.net
+<michaell@teleline.es>
+(C) Miguel Novas
+-------------------------
+
+
+

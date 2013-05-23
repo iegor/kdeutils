@@ -1,0 +1,65 @@
+==================================================================
+KSensors (ksensors.sourceforge.net)           michaell@teleline.es
+==================================================================
+
+General Information
+---------------------
+
+This is a lmsensors frontend, you must install lmsensors
+drivers before using it (http://www.netroedge.com/~lm78/):
+
+In Mandrake 8.1 try:
+urpmi lm_utils lm_utils-devel
+
+Then run the script:
+sensors-detect
+it will show the lm-sensors modules you must install for your motherboard.
+
+This software is only tested in my motherboard (PII866 Asus CUBX-L).
+I don't know if works well with others motherboards, try it.
+
+
+New Harddisk temperature monitoring support
+------------------------------------------
+
+Now KSensors can show harddisk temperatures (only in modern harddisks).
+You must install HDDtemp program from Emmanuel Varagnat.
+HDDTemp must be in PATH to allow KSensors use it.
+You can download HDDTemp from http://coredump.free.fr.
+SUID bit of hddtemp file must by set, type:
+chmod +s hddtemp
+
+WARNING: Setting suid bit can be a security flaw.
+
+
+Compile and install KSensors in KDE 3.x
+---------------------------------------
+
+tar -zxvf ksensors-0.7.3.tar.gz
+cd ksensors-0.7.3
+./configure --prefix=/opt/kde3 --with-qt-dir=/usr/lib/qt3 
+make
+make install
+
+* Replace /opt/kde3 and /usr/lib/qt3 with your KDE3 and QT3 directories.
+
+
+Howto Uninstall
+---------------
+cd ksensors-0.7.3
+make uninstall
+
+
+Contact info
+-------------
+Contact me if you have problems to run this software or to
+notify bugs, questions, requests, etc.
+
+-------------------------
+ksensors.sourceforge.net
+<michaell@teleline.es>
+(C) Miguel Novas
+-------------------------
+
+
+

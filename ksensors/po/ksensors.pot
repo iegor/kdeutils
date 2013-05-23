@@ -1,0 +1,411 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2004-08-18 23:19+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=CHARSET\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: hdsensorslist.cpp:36
+msgid "Hard Disks"
+msgstr ""
+
+#: i8ksensorslist.cpp:29
+msgid "MainBoard"
+msgstr ""
+
+#: ksensorscfg.cpp:51
+msgid "KSensors Configuration"
+msgstr ""
+
+#: ksensorscfg.cpp:56
+msgid "Global settings"
+msgstr ""
+
+#: ksensorscfg.cpp:68
+msgid " sensors"
+msgstr ""
+
+#: ksensorscfg.cpp:85
+msgid "System Information"
+msgstr ""
+
+#: lmsensorscfg.cpp:101
+msgid "Temperature"
+msgstr ""
+
+#: lmsensorscfg.cpp:107
+msgid "Fan"
+msgstr ""
+
+#: lmsensorscfg.cpp:110
+msgid "Voltage"
+msgstr ""
+
+#: lmsensorsdock.cpp:62
+msgid "&About KSensors"
+msgstr ""
+
+#: lmsensorsdock.cpp:64 lmsensorsdock.cpp:124
+msgid "&Minimize"
+msgstr ""
+
+#: lmsensorsdock.cpp:64 lmsensorsdock.cpp:124
+msgid "&Restore"
+msgstr ""
+
+#: lmsensorsdock.cpp:65
+msgid "&Exit"
+msgstr ""
+
+#: main.cpp:27
+msgid "KSensors - A nice lmsensors frontend for KDE"
+msgstr ""
+
+#: main.cpp:33
+msgid "Don't dock in KDE system tray."
+msgstr ""
+
+#: main.cpp:34
+msgid "Show splash screen."
+msgstr ""
+
+#: main.cpp:43 rc.cpp:5
+msgid "KSensors"
+msgstr ""
+
+#: rc.cpp:1
+msgid "C&ustom"
+msgstr ""
+
+#: rc.cpp:2
+msgid "AboutCfgDesign"
+msgstr ""
+
+#: rc.cpp:3
+msgid "KSensors configuration"
+msgstr ""
+
+#: rc.cpp:4
+msgid "Monitoring your motherboard"
+msgstr ""
+
+#: rc.cpp:6
+msgid ""
+"Welcome to the KSensors configuration window. Click on the left to select a "
+"configuration option."
+msgstr ""
+
+#: rc.cpp:7
+msgid "GeneralCfg"
+msgstr ""
+
+#: rc.cpp:8
+msgid "Panels size"
+msgstr ""
+
+#: rc.cpp:9
+msgid "64 x 64"
+msgstr ""
+
+#: rc.cpp:10
+msgid "56 x 56"
+msgstr ""
+
+#: rc.cpp:11
+msgid "48 x 48"
+msgstr ""
+
+#: rc.cpp:12 rc.cpp:55 rc.cpp:59 rc.cpp:91
+msgid "Colors"
+msgstr ""
+
+#: rc.cpp:13
+msgid "Startup"
+msgstr ""
+
+#: rc.cpp:14
+msgid "Autostart KSensors on KDE startup"
+msgstr ""
+
+#: rc.cpp:15
+msgid "LMSensorsCfgDesign"
+msgstr ""
+
+#: rc.cpp:16
+msgid "Sensors"
+msgstr ""
+
+#: rc.cpp:17
+msgid "General"
+msgstr ""
+
+#: rc.cpp:19
+msgid "Description"
+msgstr ""
+
+#: rc.cpp:21
+msgid "Values"
+msgstr ""
+
+#: rc.cpp:23
+msgid "Current"
+msgstr ""
+
+#: rc.cpp:24
+msgid "Maximum"
+msgstr ""
+
+#: rc.cpp:25
+msgid "+1%"
+msgstr ""
+
+#: rc.cpp:26
+msgid "+2%"
+msgstr ""
+
+#: rc.cpp:27
+msgid "+3%"
+msgstr ""
+
+#: rc.cpp:28
+msgid "+4%"
+msgstr ""
+
+#: rc.cpp:29
+msgid "+5%"
+msgstr ""
+
+#: rc.cpp:30
+msgid "+10%"
+msgstr ""
+
+#: rc.cpp:31
+msgid "+15%"
+msgstr ""
+
+#: rc.cpp:32
+msgid "+20%"
+msgstr ""
+
+#: rc.cpp:33
+msgid "+30%"
+msgstr ""
+
+#: rc.cpp:34
+msgid "+40%"
+msgstr ""
+
+#: rc.cpp:35
+msgid "+50%"
+msgstr ""
+
+#: rc.cpp:36
+msgid "Multiplier"
+msgstr ""
+
+#: rc.cpp:37
+msgid "Ideal"
+msgstr ""
+
+#: rc.cpp:38
+msgid "Minimum"
+msgstr ""
+
+#: rc.cpp:39
+msgid "Addition"
+msgstr ""
+
+#: rc.cpp:41
+msgid "-1%"
+msgstr ""
+
+#: rc.cpp:42
+msgid "-2%"
+msgstr ""
+
+#: rc.cpp:43
+msgid "-3%"
+msgstr ""
+
+#: rc.cpp:44
+msgid "-4%"
+msgstr ""
+
+#: rc.cpp:45
+msgid "-5%"
+msgstr ""
+
+#: rc.cpp:46
+msgid "-10%"
+msgstr ""
+
+#: rc.cpp:47
+msgid "-15%"
+msgstr ""
+
+#: rc.cpp:48
+msgid "-20%"
+msgstr ""
+
+#: rc.cpp:49
+msgid "-30%"
+msgstr ""
+
+#: rc.cpp:50
+msgid "-40%"
+msgstr ""
+
+#: rc.cpp:51
+msgid "-50%"
+msgstr ""
+
+#: rc.cpp:52
+msgid "Panel"
+msgstr ""
+
+#: rc.cpp:54 rc.cpp:58 rc.cpp:90
+msgid "Visible"
+msgstr ""
+
+#: rc.cpp:56
+msgid "Dock"
+msgstr ""
+
+#: rc.cpp:60
+msgid "Alarm"
+msgstr ""
+
+#: rc.cpp:63
+msgid "Normal"
+msgstr ""
+
+#: rc.cpp:64
+msgid "Alarms"
+msgstr ""
+
+#: rc.cpp:65
+msgid "On reach alarm value:"
+msgstr ""
+
+#: rc.cpp:66
+msgid "Apply to all sensors"
+msgstr ""
+
+#: rc.cpp:67
+msgid "Do nothing"
+msgstr ""
+
+#: rc.cpp:68
+msgid "Test"
+msgstr ""
+
+#: rc.cpp:69
+msgid "Play alarm sound"
+msgstr ""
+
+#: rc.cpp:70
+msgid "Run command"
+msgstr ""
+
+#: rc.cpp:71 rc.cpp:92
+msgid "Preferences"
+msgstr ""
+
+#: rc.cpp:72
+msgid "Temperatures scale"
+msgstr ""
+
+#: rc.cpp:73
+msgid "Fahrenheit"
+msgstr ""
+
+#: rc.cpp:74
+msgid "Celsius"
+msgstr ""
+
+#: rc.cpp:75
+msgid "Kelvin"
+msgstr ""
+
+#: rc.cpp:76 rc.cpp:93
+msgid "Update interval"
+msgstr ""
+
+#: rc.cpp:77 rc.cpp:94
+msgid "s"
+msgstr ""
+
+#: rc.cpp:78
+msgid "PaletteCfg"
+msgstr ""
+
+#: rc.cpp:79 rc.cpp:84
+msgid "Title"
+msgstr ""
+
+#: rc.cpp:80
+msgid "+3.5V"
+msgstr ""
+
+#: rc.cpp:81
+msgid "Default colors"
+msgstr ""
+
+#: rc.cpp:82
+msgid "Background"
+msgstr ""
+
+#: rc.cpp:85
+msgid "Value"
+msgstr ""
+
+#: rc.cpp:87
+msgid "SystemCfgDesign"
+msgstr ""
+
+#: rc.cpp:88
+msgid "System Panels"
+msgstr ""
+
+#: systemcfg.cpp:47
+msgid "CPU Speed"
+msgstr ""
+
+#: systemcfg.cpp:48
+msgid "CPU State"
+msgstr ""
+
+#: systemcfg.cpp:49
+msgid "RAM Used"
+msgstr ""
+
+#: systemcfg.cpp:50
+msgid "SWAP Used"
+msgstr ""
+
+#: systemcfg.cpp:51
+msgid "Up Time"
+msgstr ""
+
+#: _translatorinfo.cpp:1
+msgid ""
+"_: NAME OF TRANSLATORS\n"
+"Your names"
+msgstr ""
+
+#: _translatorinfo.cpp:3
+msgid ""
+"_: EMAIL OF TRANSLATORS\n"
+"Your emails"
+msgstr ""

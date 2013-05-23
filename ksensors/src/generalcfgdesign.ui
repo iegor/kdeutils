@@ -1,0 +1,143 @@
+<!DOCTYPE UI><UI version="3.1" stdsetdef="1">
+<class>GeneralCfgDesign</class>
+<widget class="QWidget">
+    <property name="name">
+        <cstring>GeneralCfgDesign</cstring>
+    </property>
+    <property name="geometry">
+        <rect>
+            <x>0</x>
+            <y>0</y>
+            <width>343</width>
+            <height>239</height>
+        </rect>
+    </property>
+    <property name="caption">
+        <string>GeneralCfg</string>
+    </property>
+    <property name="layoutMargin" stdset="0">
+    </property>
+    <property name="layoutSpacing" stdset="0">
+    </property>
+    <grid>
+        <property name="name">
+            <cstring>unnamed</cstring>
+        </property>
+        <property name="margin">
+            <number>8</number>
+        </property>
+        <property name="spacing">
+            <number>6</number>
+        </property>
+        <widget class="QButtonGroup" row="0" column="0">
+            <property name="name">
+                <cstring>ButtonGroup5</cstring>
+            </property>
+            <property name="title">
+                <string>Panels size</string>
+            </property>
+            <grid>
+                <property name="name">
+                    <cstring>unnamed</cstring>
+                </property>
+                <property name="margin">
+                    <number>11</number>
+                </property>
+                <property name="spacing">
+                    <number>6</number>
+                </property>
+                <widget class="QRadioButton" row="0" column="0">
+                    <property name="name">
+                        <cstring>Radio64</cstring>
+                    </property>
+                    <property name="text">
+                        <string>64 x 64</string>
+                    </property>
+                    <property name="checked">
+                        <bool>true</bool>
+                    </property>
+                </widget>
+                <widget class="QRadioButton" row="0" column="1">
+                    <property name="name">
+                        <cstring>Radio56</cstring>
+                    </property>
+                    <property name="text">
+                        <string>56 x 56</string>
+                    </property>
+                </widget>
+                <widget class="QRadioButton" row="0" column="2">
+                    <property name="name">
+                        <cstring>Radio48</cstring>
+                    </property>
+                    <property name="text">
+                        <string>48 x 48</string>
+                    </property>
+                </widget>
+            </grid>
+        </widget>
+        <widget class="QGroupBox" row="1" column="0">
+            <property name="name">
+                <cstring>boxGeneralPalette</cstring>
+            </property>
+            <property name="minimumSize">
+                <size>
+                    <width>0</width>
+                    <height>65</height>
+                </size>
+            </property>
+            <property name="title">
+                <string>Colors</string>
+            </property>
+            <property name="layoutMargin" stdset="0">
+            </property>
+            <property name="layoutSpacing" stdset="0">
+            </property>
+        </widget>
+        <widget class="QGroupBox" row="2" column="0">
+            <property name="name">
+                <cstring>GroupBox2</cstring>
+            </property>
+            <property name="title">
+                <string>Startup</string>
+            </property>
+            <vbox>
+                <property name="name">
+                    <cstring>unnamed</cstring>
+                </property>
+                <property name="margin">
+                    <number>11</number>
+                </property>
+                <property name="spacing">
+                    <number>6</number>
+                </property>
+                <widget class="QCheckBox">
+                    <property name="name">
+                        <cstring>CheckBoxAutoStart</cstring>
+                    </property>
+                    <property name="text">
+                        <string>Autostart KSensors on KDE startup</string>
+                    </property>
+                </widget>
+            </vbox>
+        </widget>
+        <spacer row="3" column="0">
+            <property name="name">
+                <cstring>Spacer28</cstring>
+            </property>
+            <property name="orientation">
+                <enum>Vertical</enum>
+            </property>
+            <property name="sizeType">
+                <enum>Expanding</enum>
+            </property>
+            <property name="sizeHint">
+                <size>
+                    <width>20</width>
+                    <height>20</height>
+                </size>
+            </property>
+        </spacer>
+    </grid>
+</widget>
+<layoutdefaults spacing="6" margin="11"/>
+</UI>
